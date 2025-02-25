@@ -176,7 +176,8 @@ nav{
 
 /* Message Section */
 .message-line1, 
-.message-line2 {
+.message-line2,
+.message-line3{
   font-family: 'Arial', sans-serif;
   font-size: 18px;
   color: #333;

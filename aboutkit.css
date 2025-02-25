@@ -240,7 +240,7 @@ nav{
     width: 40%;
 }
 
-.contact-haslem{
+.get-btn{
     display: block;
     margin: 0 auto;
     color: white;
@@ -256,7 +256,7 @@ nav{
     margin-bottom: 100px;
 }
 
-.contact-haslem:hover{
+.get-btn:hover{
     background: black;
 }
 

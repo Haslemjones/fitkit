@@ -710,3 +710,7 @@ footer{
 .footer-bot-link:hover{
     color: red;
 }
+
+#dropdown-toggle-btn{
+    color: black;
+}
