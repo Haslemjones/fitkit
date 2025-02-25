@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="fitkit.css">
+    <title>FIT KIT | HEALTH CARE</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="#">
+                    <img src="kit.logo.png.PNG" alt="Fit Kit Logo" class="nav__logo__image">
+                </a>
+            </div>
+        <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-search-line"></i>
+
+</div>
+        </div>
+
+<ul class="nav__links" id="nav-links">
+    <li><a href="#" onclick="resetPage()">Home</a> </li>
+    <li><a href="membership.html" target="_blank">Membership</a> </li>
+    <li><a href="corporate.html">Corporate</a></li>
+    <li><a href="aboutkit.html">About us</a> </li>
+    <li><a href="contact.html">Contact</a>  </li>
+</ul>
+
+    </nav>
+
+        <header>
+            <div class="section__container header__container">
+                <div class="header__content">
+                    <h2>
+                <span> Find a centre close to you!</span>
+                    </h2>
+                    </div></div></header>
+                    <main>
+                <div class="dropdown">
+              <button class="btn">LAGOS
+                <buttton class="menu__btn" id="dropdown-toggle-btn"  onclick="toggleDropdown(event, 'lagos-dropdown')"> 
+                    <i class="ri-menu-3-line"></i>
+                </buttton></button>
+             <div class="dropdown__content" id="lagos-dropdown">
+                <a href="https://maps.google.com/maps/place//data=!4m2!3m1!1s0x103b936a9a6ba877:0x301c9c740a63ae4?entry=s&sa=X&ved=2ahUKEwj2ksvE_MeLAxWdVkEAHdCjAeEQ4kB6BAgCEAA">Ikeja</a>
+                <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x103bf45b4cec01e9:0x8b79b17fcc705c6d">Lekki Phase 1</a>
+                <a href="https://maps.google.com/maps/place//data=!4m2!3m1!1s0x103bf7505a428bf1:0xae83c5d490321702?entry=s&sa=X&ved=1t:8290&hl=en-us&ictx=111">Jakande</a>
+                <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x103b8d0c80c348a5:0x89b1f287e1952b34">Surulere</a>
+                <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x103b893baaaaaaab:0xb1c7e173c461c07c">Festac</a>
+                <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x103b91174d2a6c0f:0x8ff48e6fccf16898">Egbeda</a>
+                <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x103bfb519a3b55bf:0x3d0bd4159832bf6d">Badore</a>
+                <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x103beda53078fcb7:0x72ad9fdffb28808">Ikorodu</a>
+             </div><br>
+
+             <div class="dropdown">
+             <button class="btn">ABUJA
+                <span class="menu__btn" id="dropdown-toggle-btn" onclick="toggleDropdown(event, 'abuja-dropdown')" >
+                    <i class="ri-menu-3-line"></i>
+                </span>
+             </button>
+             <div class="dropdown__content" id="abuja-dropdown">
+                <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x104e757e12b34c0b:0x38e34cdb33ffa836">Gwarinpa</a>
+                <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x104e0958ebe6891f:0x5024c6b125a7e1d4">Asokoro</a>
+                <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x104e0a583c70d709:0xba7b13f40d946b52">Maitama</a>
+                <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x104e0b9b956f04bb:0xcd060cb12e576e83">Garki</a>
+                <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x104e0afaac11507d:0x9e25c3d241635a82">Wuse</a>
+                <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x104e74d58c1abbff:0x241330dfbe48c300">Jabi</a>
+             </div></div><br>
+             
+             <div class="dropdown">
+             <button class="btn" >PORT HARCOURT
+                <span class="menu__btn" id="dropdown-toggle-btn"  onclick="toggleDropdown(event, 'ph-dropdown')">
+                    <i class="ri-menu-3-line"></i>
+                </span>
+             </button>
+             <div class="dropdown__content" id="ph-dropdown">
+                <a href="https://maps.google.com/maps?daddr=129-132+Trans-Amadi+Industrial+Layout+Rd%2C+Trans+Amadi+500102%2C+Port+Harcourt%2C+Nigeria%2C+Nigeria">Trans Amadi</a>
+                <a href="https://ng.africabz.com/rivers/port-harcourt-club-1928-nigeria-379770">Old GRA</a>
+                <a href="https://www.bing.com/maps?q=gym+in+new+gra+port+harcourt&cvid=4908aeb7720a4fdd81f5dcee7fe0907e&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhA0gEJMTEwOTRqMGo0qAIIsAIB&FORM=ANAB01&PC=U531">New GRA</a>
+                <a href="https://www.bing.com/ck/a?!&&p=56886648e2476b649f5771d1c930972ef2765ad8e08639bf8d7b498e04974e87JmltdHM9MTc0MDQ0MTYwMA&ptn=3&ver=2&hsh=4&fclid=36fad7f4-3e37-61dc-290b-c30e3f7060c8&psq=gym+in+rumola&u=a1aHR0cHM6Ly93d3cubG9jYWxneW1zYW5kZml0bmVzcy5jb20vTkcvUG9ydC1IYXJjb3VydC82MzE1NjY4ODM2MDA1MzYvTmljZWJvZHlneW0&ntb=1">Rumuola</a>
+                <a href="https://www.bing.com/ck/a?!&&p=ac17babfe435d9813237ad82a11eb8b4e9c8d76d32234c1d7072dc94ac13afecJmltdHM9MTc0MDQ0MTYwMA&ptn=3&ver=2&hsh=4&fclid=36fad7f4-3e37-61dc-290b-c30e3f7060c8&u=a1L21hcHM_Jm1lcGk9MTA3fkxvY2Fsfk1pZGRsZU9mUGFnZX5FbnRpdHlfVmVydGljYWxfTGlzdF9DYXJkJnR5PTE3JnE9Z3ltJTIwaW4lMjBtaWxlJTIwMSZzZWdtZW50PUxvY2FsJnBwb2lzPTYuNDg5OTQxNTk2OTg0ODYzXzMuMzU1NjQ1ODk1MDA0MjcyNV9Dcm9zc2ZpdCUyMExhZ29zX1lOODEzNHgxMjg5NDcwNDExMTk4MTMzOTMzMn42LjQ5ODAxMzAxOTU2MTc2OF8zLjMwMDQyNDA5ODk2ODUwNl9TVEVQJTIwVE8lMjBHWU0lMjBBTkQlMjBGSVRORVNTJTIwQ0xBU1NfWU44MTM0eDE1NTg0MDg1NDc4MDM0ODQwOTI2fjYuNDUzMjk2MTg0NTM5Nzk1XzMuNDQ3NjQ1OTAyNjMzNjY3X0NsZWFyJTIwRXNzZW5jZSUyMENhbGlmb3JuaWElMjBTcGElMjAlMjYlMjBXZWxsbmVzcyUyMFJlc29ydF9ZTjgxMzR4NzYxNjI2MDg5ODU0NDYwNzQ3M342LjY1MTI3NDIwNDI1NDE1XzMuMzA3MjQ5MzA3NjMyNDQ2M19XaG9sZXNvbWUlMjBmaXRuZXNzJTIwY2VudGVyX1lOODEzNHgxODM5MTQxOTc0NDQ5MzU5NzgyNn42LjYwMTI0Nzc4NzQ3NTU4Nl8zLjM1MzIxOTk4NTk2MTkxNF9Lbm93JTIwbW9yZSUyMGFib3V0JTIwSXZvcnklMjBIZWFsdGglMjBDbHViX1lOODEzNHgxMzUxMDQ0NjU3NDcwODM5MDE4MH4mc2VpPTAmY3A9Ni42NTEyNzR-My4zMDcyNDkmY2hpbGQ9JTI2dHklM0QxOCUyNnElM0RXaG9sZXNvbWUlMjUyMGZpdG5lc3MlMjUyMGNlbnRlciUyNTIwZ3ltJTI1MjBtaWxlJTI1MjAxJTI2c3MlM0R5cGlkLllOODEzNHgxODM5MTQxOTc0NDQ5MzU5NzgyNiUyNnNlZ21lbnQlM0RMb2NhbCUyNnBwb2lzJTNENi42NTEyNzQyMDQyNTQxNV8zLjMwNzI0OTMwNzYzMjQ0NjNfV2hvbGVzb21lJTI1MjBmaXRuZXNzJTI1MjBjZW50ZXIlMjUyMGd5bSUyNTIwbWlsZSUyNTIwMV9ZTjgxMzR4MTgzOTE0MTk3NDQ0OTM1OTc4MjZ-JTI2Y3AlM0Q2LjY1MTI3NH4zLjMwNzI0OSUyNkVuYWJsZU1hcFZpZXdDaGFuZ2UlM0R0cnVlJkZPUk09TVBTUlBM&ntb=1">Mile 1</a>
+             </div>
+</div></main>
+
+<div class="why-fit-kit-container">
+<div class="why-fit-kit-content" id="why-fit-kit" >
+<h3>WHY Fit Kit?</h3>
+<p><h1>Unique Experiences Tailored <br>To Your Lifestyle</h1></p>
+<i class= "ri-walk-fill" id="walk-icon"></i>
+<br><br>
+<h3>Wide Range of Fitness Programs</h3>
+<p><h5>Our timetable offers a wide range of low to high-intensity fitness programmes<br>
+     to suit your fitness lifestyle. There's something for everyone!</h5></p>
+     <i class="ri-community-line" id="community-icon"></i><br><br>
+     <h3>Supportive Community</h3>
+<p><h5>Enjoy a sense of belonging in a community that supports your fitness goals<br> and reminds you that you are not alone!</h5></p>
+<br><br>
+
+<i class="ri-verified-badge-line" id="ultra-icon"></i>
+<h3>Ultra-Modern Facilities</h3>
+<p><h5>We have over 200 professionally certified personal trainers<br>and ultra-modern facilities across all our branches in<br>
+Lagos, Abuja and Port Harcourt.
+</h5></p></div>
+
+<div class="why-fit-kit-image">
+    <img src="gym.png.JPG" alt="why-fit-kit-image">
+</div></div>
+
+<div class="explore__header">
+    <div class="explore-content" id="explore-fit-kit">
+        <h3>Explore Our All Inclusive Classes</h3>
+    </div>
+    <div class="sliding-content">
+        <div class="sliding-border">
+
+            <div class="outer-border-container">
+            <div class="category-container">
+                <div class="category-box">
+            <i class="ri-quill-pen-ai-fill" id="yoga-icon"></i>
+            <h3>YOGA</h3>
+            <p>
+                Our Yoga Classes keeps You Centered Mentally And Physically.
+            </p>
+            </div>
+
+            <div class="category-box">
+            <i class="fas fa-dumbbell" id="cardio-icon"></i>
+            <h3>CORE CARDIO</h3>
+            <p>
+                Our Core Cardio Classes Are Essentially Designed To Help You Reach Your Fitness Goals.
+            </p>
+            </div>
+
+            <div class="category-box">
+            <i class="fas fa-hand-rock" id="grit-icon"></i>
+            <h3>LES MILLS GRIT</h3>
+            <p>
+                With A Few Short Sessions A Week, You Can Improve Fitness And Increase Athleticism.
+            </p>
+            </div>
+
+            <div class="category-box">
+            <i class="fas fa-running" id="aerobics-icon"></i>
+            <h3>Aerobics</h3>
+            <P>
+                Join Us Every Saturday Morning For Fit-Kit Aerobics Classes.
+            </P>
+            </div>
+
+            <div class="category-box">
+            <i class="fas fa-heartbeat" id="spinning-icon"></i>
+            <h3>SPINNING</h3>
+            <P>
+                Our Spinning Class is A Low-Impact Exersice That Is Ideal For All Fitness Enthuasiasts.
+            </P>
+            </div>
+        </div></div>
+        </div>
+    </div>
+</div>
+
+<div class="latest-section">
+<section class="latest news" id="latest news">
+    <h3>Latest News, Events & Updates</h3>
+    <p>
+        Never miss a beat! Get all the latest news and events at Fit-Kit.
+    </p>
+</section></div>
+
+<div class="update-section">
+<section class="stay-updated" id="updates">
+    <button class="btn">STAY UPDATED</button>
+</section></div>
+
+<footer class="footer">
+    <div class="footer__logo">
+        <a href="#footer__logo">
+            <img src="fit logo.png.JPG" alt="footer logo" class="footer__logo__image">
+        </a>
+    </div>
+
+<div class="footer-about">
+    <div class="footer-content">
+        <p>
+            We are a 360-health and wellness company and the leading and fastest-growing fitness chain.
+            <br> With over 200 professionally certified personal trainers, ultra-modern
+            gym facilities and over 40 free fitness classes weekly, 
+            <br>we give our members a holistic experience to suit and support their fitness lifestyle.
+        </p></div>
+        
+        <div class="footer-icons">
+<i class="ri-facebook-circle-line" id="facebook-icon"></i>
+<i class="ri-tiktok-line" id="tiktok-icon"></i>
+<i class="ri-youtube-fill" id="yt-icon"></i>
+<i class="ri-instagram-line" id="ig-icon"></i>
+    </div>
+</div>
+
+<div class="quick-links">
+<h3>QUICK LINKS</h3>
+
+<ul class="footer-links" id="footer-links">
+    <li><a href="#">LOCATIONS</a> </li>
+    <li><a href="contact.html">CONTACT US</a> </li>
+    <li><a href="#">ANNUAL DUES FAQ</a>  </li>
+    <li><a href="#">NEWS & EVENTS</a> </li>
+    <li><a href="corporate.html">CORPORATE PLANS</a> </li>
+    <li><a href="membership.html">MEMBERSHIP PLANS</a> </li>
+</ul></div>
+
+<div class="footer-section">
+    <h3 class="footer-title">WORKING HOURS</h3>
+    <ul class="working-hours">
+<li><span>Monday - Friday</span><span>6AM - 9PM</span></li>
+<li><span> Saturday </span><span>7AM-8PM</span></li>
+<li><span>Public Holidays</span><span>7AM-8PM</span></li>
+<li><span>Deep Cleaning</span><span>2PM-3PM (Daily)</span></li>
+<li><span>Closed</span><span>Jan 1, Dec 25 & 26</span></li>
+    </ul>
+</div>
+
+
+<div class="subscribe-section">
+    <p class="subscribe-text">FOR LATEST NEWS & UPDATES</p>
+    <h3 class= "subscribe-title">SUBSCRIBE TO OUR NEWSLETTER</h3>
+    <form class="subscribe-form">
+        <input type="text" placeholder="Your Name" class="subscribe-input">
+        <input type="email" placeholder="example@gmail.com" class="subscribe-input">
+        <button type="submit" class="subscribe-btn">SUBSCRIBE</button>
+    </form>
+</div>
+
+<div clas="footer-bottom">
+    <p class="copyright">&copy; 2025 FIT-KIT CENTRE LTD. ALL RIGHTS RESERVED</p>
+    <div class="footer-bot-links">
+        <a href="#" class="footer-bot-link">FAQs</a>
+        <a href="#" class="footer-bot-link">Privacy Policy</a>
+        <a href="#" class="footer-bot-link">About &lt;&lt;&lt;DR Oluchi &gt;&gt;&gt;</a>
+    </div>
+</div>
+
+</footer>
+
+
+    <script src="fitkit.js"></script>
+</body>
+</html>
